@@ -1,0 +1,79 @@
+
+
+
+
+// resets
+
+a,
+a:active,
+a:visited
+	text-decoration none
+	color inherit
+	outline 0
+
+
+p,
+li,
+blockquote
+	line-height 1.66em
+
+
+
+
+
+// helpers
+
+*
+	box-sizing border-box
+
+rwidth(target, context)
+	width unit((target / context) * 100, '%')
+
+rmarginleft(target, context)
+	margin-left unit((target / context) * 100, '%')
+
+rmarginright(target, context)
+	margin-right unit((target / context) * 100, '%')
+
+
+
+animate()
+	transition-property(all)
+	transition-duration(0.2s)
+
+
+// straighten out a menu
+
+menu()
+	margin 0
+	list-style none
+	li
+		display inline
+
+// place a menu() inside a div.table inside a full-width div
+
+.table
+	display table
+	margin 0 auto
+
+
+
+
+input,
+textarea,
+select
+	-webkit-appearance none!important
+
+
+
+// type
+
+fontsize(target)
+	font-size unit((target / 16) * 100, '%')
+
+
+
+
+
+
+

@@ -1,0 +1,284 @@
+/* Matt Wood NYC */
+@import 'vendor/font-awesome.css';
+@import 'vendor/shadowbox.css';
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+}
+p,
+li,
+blockquote {
+  line-height: 1.66em;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.table {
+  display: table;
+  margin: 0 auto;
+}
+input,
+textarea,
+select {
+  -webkit-appearance: none !important;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+}
+body {
+  color: #333;
+  font-style: none;
+  font-size: 16px;
+  min-width: 480px;
+  line-height: 1.66em;
+}
+header {
+  text-align: center;
+  padding: 30px 0 0;
+}
+header h1 {
+  display: block;
+  margin: 0 auto;
+}
+header h1 a {
+  width: 7em;
+  display: block;
+  margin: 0 auto;
+}
+header h1 a img {
+  max-width: 100%;
+}
+header nav {
+  margin: 20px 0;
+}
+header nav ul {
+  margin: 0;
+  list-style: none;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul a {
+  padding: 2em;
+}
+.marquee {
+  margin: 2em 0;
+}
+.marquee h2 {
+  color: #333;
+  font-style: none;
+  font-size: 120%;
+  line-height: 1.66em;
+}
+.clients,
+.press {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 2%;
+  -moz-column-gap: 2%;
+  column-gap: 2%;
+  text-align: center;
+  margin: 40px auto;
+  width: 80%;
+}
+.clients li,
+.press li {
+  padding: 10px 0;
+}
+.clients li img,
+.press li img {
+  max-width: 100%;
+}
+.clients {
+  text-align: left;
+}
+.clients li {
+  text-align: center;
+  padding: 20px 0;
+}
+#galleria {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  background: #fff;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  margin: 80px 0 40px;
+  font-style: uppercase;
+  font-size: 24px;
+}
+footer.wrapper {
+  text-align: center;
+  margin: 60px auto;
+}
+.contactus {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 2%;
+  -moz-column-gap: 2%;
+  column-gap: 2%;
+  text-align: center;
+}
+.contactus li {
+  padding: 10px 0;
+}
+.contactus li img {
+  max-width: 100%;
+}
+@media (max-width: 640px) {
+  h2 {
+    margin: 60px 0 40px;
+  }
+  .marquee h2 {
+    margin: 0;
+  }
+  header nav {
+    display: block;
+  }
+  header nav ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 2%;
+    -moz-column-gap: 2%;
+    column-gap: 2%;
+  }
+  header nav ul li {
+    padding: 10px 0;
+  }
+  header nav ul li img {
+    max-width: 100%;
+  }
+  header nav ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  header nav ul li a {
+    display: inline;
+    padding: 0;
+  }
+  .press,
+  .clients {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 2%;
+    -moz-column-gap: 2%;
+    column-gap: 2%;
+    margin: 40px auto;
+    width: 100%;
+    font-size: 20px;
+  }
+  .press li,
+  .clients li {
+    padding: 10px 0;
+  }
+  .press li img,
+  .clients li img {
+    max-width: 100%;
+  }
+}
