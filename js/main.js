@@ -1,6 +1,6 @@
 
 
-  // $.backstretch("img/bg.jpg");
+$('#back').backstretch("img/bj.jpg");
 
 
 

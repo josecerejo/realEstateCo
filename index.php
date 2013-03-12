@@ -6,26 +6,10 @@
 include('header.php');
 
 
-	// TOP MARQUEE
 
-	include('marquee.php');
-
-	// CASE STUDIES
-
-	include('galleria.php');
-
-	// CLIENTS
-
-	include('clients.php');	
-
-	// PRESS
-
-	include('press.php');
+include('grid.php');
 
 
-	// CONTACT
-
-	include('contact.php');
 
 
 include('footer.php');

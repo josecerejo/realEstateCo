@@ -7,10 +7,10 @@
 
 </footer>
 
-<script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-    Galleria.run('#galleria');
-</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
 <script>
 var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
