@@ -11,17 +11,18 @@
 			
 		</div>
 		<div class="backbottom">
-			
+			<p>fontsize</p>
 		</div>
 	</div>
 	<div class="bigright">
 		<header>
-			<h1>Emmet Ochs
-				<br>
-				<small>The Smaller Subline</small>
+			<h1>
+				<a href="#">
+					<img src="img/logo.png" alt="" >
+				</a>
 			</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sapiente iure tempora nemo maxime repellendus libero dicta autem qui id dignissimos ad. Id quo consequuntur suscipit omnis molestiae dolores pariatur.
+				fontsize
 			</p>
 		</header>
 

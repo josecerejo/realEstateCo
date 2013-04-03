@@ -1,19 +1,13 @@
 <?
 
-
 // LOGO AND NAV
 
 include('header.php');
 
 
-
-include('grid.php');
-
-
+include('home.php');
 
 
 include('footer.php');
-
-
 
 ?>

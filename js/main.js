@@ -1,6 +1,18 @@
 
 
-$('#back').backstretch("img/bj.jpg");
+var $ = jQuery;
+
+$(function(){
+
+	$('#back').backstretch("img/bj.jpg");
+
+
+
+
+});
+
+
+
 
 
 

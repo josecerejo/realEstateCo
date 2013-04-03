@@ -27,6 +27,9 @@ textarea,
 select {
   -webkit-appearance: none !important;
 }
+* {
+  -webkit-font-smoothing: antialiased;
+}
 html,
 body,
 div,
@@ -123,24 +126,51 @@ a img {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+i {
+  margin-right: 5px;
+}
+.button {
+  padding: 0.5em 1em;
+  background: rgba(255,255,255,0.10);
+  display: block;
+  margin: 0.5em 0;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  text-align: center;
+}
+.button:hover {
+  background: rgba(255,255,255,0.20);
+}
 body {
   background: #2f343b;
   font-family: sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: #333;
   font-style: none;
-  font-size: 100%;
+  font-size:   font-size: 100%;;
   width: 100%;
   color: #fff;
+  height: 100%;
 }
 .wrapper {
-  margin: 2em;
+  margin: 3em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
-  zoom: 1;
   height: 100%;
+  zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .wrapper:before,
 .wrapper:after {
@@ -155,14 +185,172 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 600px;
   width: 50%;
   float: left;
+  zoom: 1;
+}
+.bigleft:before,
+.bigright:before,
+.bigleft:after,
+.bigright:after {
+  content: "";
+  display: table;
+}
+.bigleft:after,
+.bigright:after {
+  clear: both;
 }
 .bigleft #back,
 .bigright #back {
   min-height: 400px;
 }
-.bigright {
-  padding: 2em;
+.footer,
+.backbottom {
+  border-top: 1px solid rgba(255,255,255,0.30);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1em 0;
+  font-size: 68.75%;
+  color: rgba(255,255,255,0.60);
+  text-shadow: none;
+}
+.backbottom {
+  padding: 0;
+  border: none;
+}
+.bigright,
+.sidebar {
+  padding: 2em 3em 0;
+}
+.bigright .content,
+.sidebar .content {
+  border-top: 1px solid rgba(255,255,255,0.30);
+  padding: 15px 0 0;
+  margin: 20px 0;
+  font-size: 75%;
+}
+.bigright .contact,
+.sidebar .contact {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  padding: 2em 2em 0 0;
+}
+.bigright .contact h2,
+.sidebar .contact h2 {
+  font-weight: bold;
+  margin: 0 0 0.5em;
+}
+.bigright .loginholder,
+.sidebar .loginholder {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+.bigright .investorlogin,
+.sidebar .investorlogin {
+  width: 140px;
+  margin: 2em 0 0;
+  font-weight: bold;
+}
+.sidebar {
+  width: 33.33333%;
+  float: left;
+  min-width: 300px;
+}
+.sidebar .loginholder,
+.sidebar .contact,
+.sidebar .content,
+.sidebar .investorlogin {
+  width: 100%;
+}
+.sidebar .contact {
+  margin-top: 15px;
+  padding: 0;
+}
+.sidebar header img {
+  max-width: 100%;
+  height: auto;
+}
+.sidebar header .button {
+  width: 160px;
+}
+.rightmain {
+  width: 66.6666%;
+  float: left;
+  margin: 0;
+  padding: 104px 0;
+  zoom: 1;
+}
+.rightmain:before,
+.rightmain:after {
+  content: "";
+  display: table;
+}
+.rightmain:after {
+  clear: both;
+}
+.rightmain .content {
+  border-top: 1px solid rgba(255,255,255,0.30);
+  padding: 1.45em 0;
+  margin-bottom: 4em;
+}
+.rightmain .content h2 {
+  font-weight: bold;
+  font-size: 150%;
+  line-height: 1.66em;
+}
+.rightmain .content img {
+  max-width: 100%;
+}
+.rightmain .content p + p {
+  margin-top: 1.22em;
+}
+.menu {
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  top: 68px;
+  right: 0;
+  font-size: 75%;
+}
+.menu li {
+  display: inline;
+}
+.menu li {
+  margin: 0 1em;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu li a {
+  font-weight: bold;
+}
+.galleria {
+  height: 360px;
+  zoom: 1;
+}
+.galleria:before,
+.galleria:after {
+  content: "";
+  display: table;
+}
+.galleria:after {
+  clear: both;
+}
+.galleria .galleria-container {
+  background: transparent !important;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+header h1 a img {
+  width: 317px;
+  height: 67px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

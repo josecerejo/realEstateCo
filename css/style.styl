@@ -10,18 +10,9 @@ global-reset()
 
 *
 	box-sizing border-box
-font(size = 100%)
-	font-family sans-serif
-	font-weight 100
-	color text
-	font-style none
-	font-size size
-	
-// .wrapper
-// 	width 90%
-// 	margin 0 auto
-// 	max-width 800px
-// 	position relative
+
+i
+	margin-right 5px
 
 grid(col = 3)
 	column-count col
@@ -31,7 +22,19 @@ grid(col = 3)
 		img
 			max-width 100%
 
+button()
+	padding .5em 1em
+	background rgba(white,.1)
+	display block
+	margin .5em 0
+	animate()
+	text-align center
+	&:hover
+		background rgba(white,.2)
 
+.button
+	button()
+	
 box()
 	box-sizing border-box 
 
@@ -40,23 +43,129 @@ body
 	font()
 	width 100%
 	color white
-
+	height 100%
+	
 .wrapper
-	margin 2em
+	margin 3em
 	box-sizing border-box
 	position relative
-	clearfix()
 	height 100%
+	clearfix()
+	box()
+	
 .bigleft,
 .bigright
 	box()
-	min-height 600px
 	width 50%
-	// padding 2em
 	float left
-	// background red
+	clearfix()
 	#back
 		min-height 400px
+	
 
-.bigright
-	padding 2em
+.footer,
+.backbottom
+	border-top 1px solid rgba(white,.3)
+	margin 0 auto
+	max-width 600px
+	padding 1em 0
+	fontsize(11)
+	color rgba(white,.6)
+	text-shadow none
+.backbottom
+	padding 0
+	border none
+.bigright,
+.sidebar
+	padding 2em 3em 0
+	.content
+		border-top 1px solid rgba(white,.3)
+		padding 15px 0 0
+		margin 20px 0
+		fontsize(12)
+	.contact
+		width 50%
+		float left
+		display inline-block
+		padding 2em 2em 0 0
+		h2
+			font-weight bold
+			margin 0 0 .5em
+	.loginholder
+		width 50%
+		float left
+		display inline-block
+	.investorlogin
+		width 140px
+		margin 2em 0 0 
+		font-weight bold
+
+.sidebar
+	width 33.33333%
+	float left
+	min-width 300px
+	.loginholder,
+	.contact,
+	.content,
+	.investorlogin
+		width 100%
+	.contact
+		margin-top 15px
+		padding 0
+	header
+		img
+			max-width 100%
+			height auto
+		.button
+			width 160px
+.rightmain
+	width 66.6666%
+	float left
+	margin 0
+	padding 104px 0
+	clearfix()
+	.content
+		border-top 1px solid rgba(white,.3)
+		padding 1.45em 0
+		margin-bottom 4em
+		h2
+			font-weight bold
+			fontsize(24)
+			line-height 1.66em
+		img
+			max-width 100%
+		p + p
+			margin-top 1.22em
+.menu
+	menu()
+	absolute top 68px right
+	fontsize(12)
+	li
+		margin 0 1em
+		&:last-child
+			margin-right 0
+		a
+			font-weight bold
+
+.galleria
+	height 360px
+	clearfix()
+	.galleria-container
+		background transparent!important
+.wrapper
+	width 1000px
+	margin 0 auto 
+header
+	h1
+		a
+			img
+				width 317px
+				height 67px
+
+.footer
+	absolute bottom left
+
+
+
+
+
